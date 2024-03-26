@@ -3,11 +3,12 @@
 
 int main(int argc, char* argv[])
 {
-    puts("Hello World from C!");
+    puts("Ritom hazard");
     char *buffer = NULL;
     long unsigned int len;
     getline(&buffer, &len, stdin);
     printf("%s", buffer);
     free(buffer);
     return 0;
+    printf(hazard working on it)
 }
